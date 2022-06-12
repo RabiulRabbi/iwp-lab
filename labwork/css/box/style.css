@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-align: center;
+  background-color: white;
+}
+.padding {
+  padding: 20px;
+  background-color: lightgray;
+}
+.border {
+  border: 20px solid green;
+}
+.margin {
+  margin: 20px;
+  background-color: red;
+}
+.box {
+  width: 60%;
+  margin: auto;
+}
