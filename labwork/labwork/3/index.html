@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        span{
+            border: 2px solid green; 
+        }
+    </style>
+  </head>
+  <body>
+    <span id="onclick" onclick="onClicFunc()">Onclick me</span><br><br>
+    <span id="onmouseover" onmouseover="onMouseOver()">OnMouseOver me</span><br><br>
+    <label for="onkeypress">onKeyPress my Box</label>
+    <input type="text" id="onkeypress" name="onkeypress" onkeypress="onKeyPress()"></input>
+
+    <script>
+      function onClicFunc() {
+        document.getElementById("onclick");
+        alert("Hello World");
+      }
+
+      function onMouseOver() {
+        document.getElementById("onmouseover");
+        alert("Hello World");
+      }
+
+      function onKeyPress() {
+        document.getElementById("onkeypress");
+        alert("Hello World");
+      }
+    </script>
+  </body>
+</html>
